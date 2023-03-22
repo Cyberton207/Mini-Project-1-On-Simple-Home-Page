@@ -1,0 +1,220 @@
+/* 
+font-family: 'Baloo 2', cursive; // Poppins font code
+// Github icon code <i class="fa-brands fa-github"></i>
+//Linkedin icon code <i class="fa-brands fa-linkedin"></i>
+// Linkedin icon unicode = f08c
+*/
+/* font-Awesome Kit code "<script src="https://kit.fontawesome.com/b5539ab13f.js" crossorigin="anonymous"></script>" */
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: "Baloo 2", cursive;
+    box-sizing: border-box;
+    padding-top:1px;
+}
+header {
+    padding: 15px 0;
+  }
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #edf1fd;
+    /* Flex is used to make all the content in one row */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+    
+}
+
+/* Applying styles to the Nav Links */
+li {
+    list-style: none;
+    cursor: pointer;
+    /* padding: 10px;
+    margin: 10px;
+    font-size: 1.5rem;
+    font-weight: 600; */
+    color: #000;
+    text-decoration: none;
+    /* transition: all 0.3s ease-in-out; */
+}
+
+a {
+    text-decoration: none;
+}
+/* 
+.btn-hover.color-9 {
+   
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+*/
+
+button {
+    border: none;
+    /* background-color: #4ebcdb; */
+    background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+    color: #000;
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+    padding: 4px 10px;
+    color: white;
+    cursor: pointer;
+    border: 1px solid red;
+    border-radius:5px;
+    font-weight: 600;
+    width: fit-content;
+    
+    
+}
+button:hover{
+    background-image: linear-gradient(to right, #6253e1, #852D91, #A3A1FF, #F24645);
+    box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+    border: 1px solid black;
+   
+}
+
+/* Applying styles on Navigation Links */
+nav
+{
+   display: flex;
+   width: 100%;
+   padding:10px;
+   align-items: center;
+    justify-content: flex-end;
+   justify-content:center;
+}
+nav li
+{
+    display: flex;
+    align-items: flex-end;
+}
+nav.logo
+{
+    font-weight: 700;
+    font-size: 30px;
+    
+}
+/* These Makes the nav bar horizontal as we used display flex */
+nav ul
+{
+    display: flex;
+
+    justify-content: flex-end;
+    gap: 30px;
+    font-weight: 500;
+}
+/* On Hover change the color of the nav links */
+nav ul li:hover
+{
+    text-decoration: underline;
+    font-weight: 700;
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+.searchBox
+{
+    display: flex;
+    gap: 20px;
+}
+input{
+    padding: 2px 2px;
+}
+.main_section
+{
+    display: flex;
+    align-items: center;
+}
+.main_left_section
+{
+    width: 60%;
+    padding: 0 8%;
+}
+.main_left_section h1{
+    /* font-size: 40px;
+    font-style:bold;
+    font-weight: 700;
+    line-height: 1.2; */
+    font-weight: 800;
+    font-size: 38px;
+    margin-bottom:16px;
+    
+    
+}
+main_left_section h1 span
+{
+    color: rgb(18,155,155);
+    font-weight: 700;
+    font-size:2.5em;
+    /* margin-top: -50px; */
+}
+.main_left_section p
+{
+    font-weight: 500;
+    font-size: 20px;
+    
+}
+.main_left_section p span
+{
+    font-weight: 700;
+    font-size: 25px;
+    color:rgb(18,155,155,0.8);
+    justify-content: space-between;
+    
+}
+.main_right_section
+{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    /* align-items: right; */
+    justify-content: center;
+    gap: 30px;
+    /* border-radius: 20px; */
+}
+/* chatButton */
+.main_right_section chatButton {
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    justify-content: space-between;
+    gap:30px;
+    transform: scale(1.5);
+    /* align-items: right; */
+
+}
+.main_right_section img
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+footer
+{
+    font-weight: 600;
+    display: flex;
+    padding:20px 0;
+    justify-content: space-around;
+}
+footer ul 
+    {
+    align-items: center;
+    gap: 30px;
+  }
+  footer p
+  {
+    text-align: left;
+    margin-right: 120px;
+  }
+i{
+    font-size: 1.5rem;
+    color: #000;
+    transition: all 0.3s ease-in-out;
+    margin: 20px;
+}
+i:hover
+{
+    color: #4ebcdb;
+    transform: scale(1.5);
+}
